@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: Left;
+  padding: 15px;
+}
+
+html {
+  font-family: "syetem-ui", "cursive";
+}
+
+.header {
+  background-color: #e4763e;
+  color: #fcf7f7;
+  padding: 25px;
+  
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #686868;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 1000;
+  a:visited {color:#ffffff;}
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #3d3d3d;
+}
+
+.aside {
+  background-color: #a5a2a2;
+  padding: 15px;
+  margin-top: -400px;
+  color: #ffffff;
+  text-align:center;
+  font-size: 14px;;
+}
+
+.footer {
+  background-color: #cc5c00;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div 
+class="header">
+  <h1>Amber Little World</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="Song.html" >Amber's Favourite Song</a></li>
+      
+      <li><a href="photo.html" >Amber's Photo</a></li>
+      
+      <li><a href="Family.html"> Amber's Family member</a></li>
+      
+      <li>
+        <a href="https://www.instagram.com/siulungbaobb/">Amber's IG </a> </li>
+      
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Amber Family</h1>
+    <p>I am very grateful for everything God has given me. I appreciate my parents,
+        family, especially Mr. Chau my uncle. I hope everyone can be happy and let 
+        us embrace this world.
+    </p>
+  </div>
+  <DIV style="text-align:center;">
+    <img src="Amber.jpg.jpg" width="200" />
+    </DIV>
+
+    <DIV style="text-align:center;margin-top:-60px;">
+        <video src="family.mp4"controls width="600" height="400">小可愛 AMBER </video>>
+    </DIV>
+
+    
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Optimism</h2>
+      <p>Feeling that good things will happen and that sth will be successful.</p>
+      <h2>Respect</h2>
+      <p>Admiration felt or shown for someone or 
+        something that you believe has good ideas or qualities
+      </p>
+      <h2>Care</h2>
+      <p>The process of protecting someone or something 
+        and providing what that person or thing needs
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>"Do the Right thing, At the Right time" </p>
+</div>
+
+</body>
+
+
+</html>
